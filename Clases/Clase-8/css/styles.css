@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+
+header img{
+    width: 150px;
+    height: 150px;
+    margin-right:auto;
+    margin: 1rem auto 1rem 10rem;
+}
+.search{ 
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    left: 10rem;
+}
+img{
+    width: 30px;
+    height: 30px;
+}
+header{
+    display: flex; 
+    justify-content: center;
+    background-color: aqua;
+}
+header h1{
+    align-self: center;
+    position: absolute;
+    margin-bottom: 5rem;
+}
+nav{
+    position: absolute;
+    display: flex;
+    top: 7rem;
+    padding-right: 5rem;
+
+}
+nav li{
+    margin: 15px;
+}
+
+.padre{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    margin: 2em 10%;
+    align-items: center;
+    background-color:burlywood;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.noticia{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 3rem;
+    border-top: solid black;
+
+}
+
+.noticia img, h2, p, div {
+    margin: 0.5rem;
+}
+
+.noticia img{
+    width: 50%;
+    height: 50%;
+}
+body{
+    background-color: blanchedalmond;
+}
+
+footer{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-around
+}
+
+.social img{
+    width: 2rem;
+    height: 2rem;
+    margin: 1rem 1rem 1rem 2rem;
+}
+
+#logo{
+    width:4rem;
+    height: 4rem;
+}
+.social{
+    margin-right: 50rem;
+}
+footer h2{
+    left: auto;
+    right: auto;
+    position: absolute;
+    
+}
+.tipoNoticia img{
+    width: 30px;
+    height: 30px;
+}
